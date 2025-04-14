@@ -73,17 +73,6 @@ w25shell$ c1 && c2 || c3 && c4
 
 ---
 
-## 📤 Submission
-
-1. Submit: `w25shell_fname_lname_SID.c`
-2. Submit: A Zoom/Google Drive video (max 15 mins) with:
-   - Code explanation (~8-9 mins)
-   - Demonstration of various input cases (~6-7 mins)
-   - Link must be included in comments section of code
-   - Only Zoom/Drive links accepted — **no MP4 uploads**
-
----
-
 ## 🛠️ System Calls Used
 
 - `fork()`
@@ -106,4 +95,5 @@ w25shell$ c1 && c2 || c3 && c4
 
 ## 👨‍💻 Author
 
-Created as part of COMP-8567 Assignment — Winter 2025 (University of Windsor)
+- Saima Khatoon
+- Created as part of COMP-8567 Assignment — Winter 2025 (University of Windsor)
