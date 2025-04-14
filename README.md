@@ -1,6 +1,6 @@
 # w25shell
 
-`w25shell` is a custom shell written in C that mimics the behavior of a Linux shell with a wide range of built-in and special character operations. It is designed as a systems programming assignment for COMP-8567 (Winter 2025), focusing on OS-level process management and inter-process communication using system calls.
+`w25shell` is a custom shell written in C that mimics the behavior of a Linux shell with a wide range of built-in and special character operations. This shell does **not** use the `system()` function; instead, it leverages `fork()`, `execvp()`, `dup2()`, and other system calls to manage process creation and I/O redirection. It focuses on OS-level process management and inter-process communication using system calls.
 
 ---
 
@@ -62,14 +62,6 @@ w25shell$ ls -1 > dirlist.txt
 w25shell$ date ; pwd ; ls -l -t -a
 w25shell$ c1 && c2 || c3 && c4
 ```
-
----
-
-## 🧪 Testing & Environment
-
-- Must be implemented and tested on the **CS Linux server** using your university login
-- Avoid creating fork bombs: run `killall -u your_username` to clean up processes
-- Plagiarism will be checked using **MOSS**
 
 ---
 
